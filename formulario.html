@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/formulario.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ 
+
+    <header>
+
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="d-flex flex-row-reverse bd-highlight">
+            <div class="col px-md-5 ">
+              <a href="./formulario.html"><button type="button" class="btn btn-outline-primary">Registrate</button></a>
+              <button type="button" class="btn btn-outline-primary">Iniciar Sesión</button>
+            </div>
+          </div>
+    
+          <div class="container">
+            <!-- <img src="./assets/logo.jpg" alt="" height="100px"> -->
+            <h1 class="display-4">Centro de belleza SPA y Barberia Magic</h1>
+            <p class="lead">Relájate y déjate consentir en nuestro salón de belleza y spa! Te esperamos para brindarte un
+              momento de bienestar y belleza. 🌸 
+          </div>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a href="./index.html"><i class="fa-solid fa-house fa-xl" style="color: #007bff;"></i></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./cabello.html">Cabello</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./uñas.html">Uñas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./facial.html">Facial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./corporal.html">Corporal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Venta de Productos</a>
+            </li>
+          </ul>
+    
+        </div>
+      </header>
+
+      <main>
+        <div class="container">            
+            <form>
+              <br>
+              <h2 style="text-align: center;">Registra tus datos</h2>
+                <div class="form-group">                    
+                    <label for="exampleInputEmail1">Nombres</label>
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                    <small id="emailHelp" class="form-text text-muted">Ingresa tus Nombres</small>
+                  </div>
+                  <div class="form-group">                    
+                    <label for="exampleInputEmail1">Apellidos</label>
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                    <small id="emailHelp" class="form-text text-muted">Ingresa tus Apellidos</small>
+                  </div>
+                  <div class="form-group">                    
+                    <label for="exampleInputEmail1">Telefono</label>
+                    <input type="number" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                    <small id="emailHelp" class="form-text text-muted">Ingresa tus numero de telefono o celular</small>
+                  </div>
+                <div class="form-group">                    
+                  <label for="exampleInputEmail1">Correo electronico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">Ingresa tu correo electronico</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Desea recibir notificaciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="text-align: center;">Guardar</button>
+                <br>
+              </form>
+              <br>
+        </div>
+       
+      </main>
+    <br>
+
+      <!-- Modal -->
+  <div class="modal fade" id="mimodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Terminos y condiciones spa y barberia Magic</h5>
+        </div>
+        <div class="modal-body">
+          <h6>Reservas</h6>
+          <ul>
+            <li>Las citas deben reservarse con antelación. Puedes hacerlo en persona, por teléfono o a través de nuestro
+              sitio web
+              o redes sociales.</li>
+          </ul>
+
+          <ul>
+            <li>Las citas están sujetas a disponibilidad. Recomendamos llegar 10 minutos antes de la hora programada.
+            </li>
+          </ul>
+
+          <h6>Política de Cancelación</h6>
+          <ul>
+            <li>Las cancelaciones deben hacerse con al menos 24 horas de antelación.</li>
+          </ul>
+
+          <ul>
+            <li>En caso de no presentarse a la cita o cancelaciones fuera del plazo, se cobrará una tarifa del 50% del
+              servicio
+              reservado.</li>
+          </ul>
+
+          <h6>Llegadas Tardías</h6>
+          <ul>
+            <li>Si llegas tarde a tu cita, intentaremos acomodarte en la medida de lo posible. Sin embargo, esto puede
+              implicar un
+              tiempo reducido o la reprogramación de la cita.</li>
+          </ul>
+
+          <h6>Métodos de Pago</h6>
+          <ul>
+            <li>Aceptamos pagos en efectivo, tarjeta de crédito y débito.</li>
+          </ul>
+
+          <ul>
+            <li>Todos los precios incluyen impuestos. Las propinas son opcionales y agradecidas.</li>
+          </ul>
+
+          <h6>Cambios y Devoluciones</h6>
+          <ul>
+            <li>No ofrecemos reembolsos por servicios prestados. Si no estás satisfecho con el resultado, ofrecemos una
+              corrección
+              dentro de los primeros 7 días sin costo adicional.</li>
+          </ul>
+
+          <h6>Menores de Edad</h6>
+          <ul>
+            <li>Los menores de 16 años deben estar acompañados por un adulto para recibir servicios.</li>
+          </ul>
+
+          <h6>Política de Salud e Higiene</h6>
+          <ul>
+            <li>
+              Nos comprometemos a mantener los más altos estándares de higiene y seguridad. Por favor, notifica
+              cualquier
+              condición médica antes del servicio.
+            </li>
+          </ul>
+
+          <h6>Propiedad Personal</h6>
+          <ul>
+            <li>No nos hacemos responsables de la pérdida o daño de objetos personales en nuestras instalaciones.</li>
+          </ul>
+
+          <h6>Política de Promociones</h6>
+          <ul>
+            <li>Las promociones y descuentos no son acumulables y están sujetos a condiciones específicas que serán
+              comunicadas en
+              cada caso.</li>
+          </ul>
+
+          <h6>Derecho de Admisión</h6>
+          <ul>
+            <li>Nos reservamos el derecho de admisión y la posibilidad de rechazar a cualquier cliente cuyo
+              comportamiento sea
+              inapropiado o irrespetuoso con el personal o los demás clientes.</li>
+          </ul>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Acepto</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <footer>
+        <br>
+        <div class="container">
+          <h6>Centro de belleza SPA y Barberia Magic especialistas en cuidado capilar y belleza integral. Ubicados en 
+            Diagonal 4A # 14 - 43 Bogotá, ofrecemos cortes, coloración, tratamientos capilares, manicura, pedicura, y 
+            servicios personalizados para resaltar tu belleza natural. Contáctanos al [Número de Teléfono] o visita 
+            nuestras redes sociales para agendar tu cita. ¡Transformamos tu look con productos de alta calidad y un 
+            equipo de profesionales dedicados a brindarte una experiencia única! <br>Sujeto a 
+            <a href="terminos.html" id="mimodal">terminos y condiciones</a></h6>
+        </div>   
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <em>Acerca de Nosotros</em>
+              <br><a href="./mision.html">Misión</a>
+              <br><a href="./vision.html">Visión</a>
+              <br><a href="./ubicacion.html">Ubicación</a>
+              <br>Trabaja con nosotros
+            </div>
+            <div class="col-3">
+              <em>Cuenta</em>
+              <br>Administra tu cuenta de usuario
+              <br>Cosulta de agenda
+            </div>
+            <div class="col-3">
+              <em>Servicios</em>
+              <br>Metodos de Pago
+              <br>Quejas y reclamos
+              <br>Preguntas Frecuentes
+            </div>
+            <div class="col-3">
+              <em>Contactenos</em>          
+              <br><i class="fa-brands fa-facebook fa-lg" style="color: #362ae5;"></i> 
+              <br><i class="fa-brands fa-instagram fa-lg" style="color: #f10427;"></i> 
+              <br><i class="fa-brands fa-tiktok fa-lg" style="color: #0d0d0d;"></i>      
+              <br><i class="fa-brands fa-whatsapp fa-lg" style="color: #1cca30;"></i>   
+              
+              
+            </div>
+          </div>
+        </div>
+        <br>
+        
+      </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"></script>
+
+      <script>
+        $(document).ready(function () {
+                $('#mimodal').modal('show')
+          
+        });
+    
+      </script>
+</body>
+</html>
